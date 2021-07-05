@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(46, 61, 30);
+}
+
+.card {
+    border-radius: 50px;
+    background-image: linear-gradient(to right top, #d16ba5, #eb7684, #ec8f68, #dbac5e, #bdc86f, #a9d684, #93e29e, #7bedbd, #73f1ca, #6bf4d7, #64f8e4, #5ffbf1);
+}
+
+.heading h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.heading p {
+    font-size: 20px;
+    text-align: center;
+    color: gray;
+}
+
+form p {
+    text-transform: italic;
+    font-weight: bold;
+}
+
+form input[type="text"] {
+    border-radius: 5px;
+}
+
+form input[type="text"]:hover {
+    shadow: 1px 20px black;
+}
+
+form input[type="button"] {
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 120px;
+    font-size: 15px;
+    background-color: chartreuse;
+    cursor: pointer;
+}
+
+form input[type="reset"] {
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 120px;
+    font-size: 15px;
+    background-color: chartreuse;
+}
+
+@media(max-width: 1024px) {
+    .card {
+        margin-top: 70px;
+        object-fit: cover;
+    }
+}
